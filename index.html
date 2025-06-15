@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradiso | Artisan Pizza</title>
+    <!-- link to google fonts to include poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- link to font awesome to include icons -->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Pizza Paradiso</div>
+        <nav class="nav-links">
+            <a href="#menu">Menu</a>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#about">About</a>
+        </nav>
+        <button class="cta-btn">Order Now</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Artisan Pizzas Crafted with Passion</h1>
+            <p>Experience authentic Italian flavors with our
+                wood-fired pizzas made from locally-sourced ingredients</p>
+            <button class="cta-btn">Explore Menu</button>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.png" height="500px" alt="Artisan Pizza">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pizza">Pizzas</button>
+        <button class="filter-btn" data-filter="pasta">Pastas</button>
+    </div>
+    <div class="menu-grid">
+        <div class="menu-card" data-category="pizza">
+            <img src="1.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Classic Margherita</h3>
+                <p>San Marzano tomatoes, fresh mozzarella, basil</p>
+                <div class="price">$14.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="2.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Pepperoni Pizza</h3>
+                <p>Spicy pepperoni, mozzarella, and tomato sauce</p>
+                <div class="price">$16.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pasta">
+            <img src="3.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Spaghetti Carbonara</h3>
+                <p>Classic Roman pasta with eggs, cheese, and pancetta</p>
+                <div class="price">$12.99</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+    <div class="features-grid">
+        <div class="feature-card">
+            <i class="fas fa-fire"></i>
+            <h3>Wood-Fired Oven</h3>
+            <p>Authentic 900°F brick oven cooking</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-seedling"></i>
+            <h3>Local Ingredients</h3>
+            <p>Sourced from local farms daily</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-clock"></i>
+            <h3>Fast Delivery</h3>
+            <p>30-minute guarantee or free</p>
+        </div>
+    </div>
+</section>
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <img src="profile.jpg" height="80px" alt="Customer">
+            <h3>Sarah Johnson</h3>
+            <p>"The best pizza I've ever had! Fresh and flavorful."</p>
+        </div>
+        <!-- You can add more testimonial cards here -->
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-col">
+            <h3>Pizza Paradiso</h3>
+            <p>Bringing authentic Italian flavors to your doorstep since 2010.</p>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p>123 Pizza Street, NY</p>
+            <p>(555) 123-4567</p>
+            <p>info@pizzaparadiso.com</p>
+        </div>
+    </div>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="copyright">
+        © 2023 Pizza Paradiso. All rights reserved.
+    </div>
+</footer>
+
+
+
+
+
+
+   
+<!-- link to js file -->
+    <script src="script.js"></script>
+</body>
+</html>
