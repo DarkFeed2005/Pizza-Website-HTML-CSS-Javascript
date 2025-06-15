@@ -1,0 +1,37 @@
+:root {
+    --terracotta: #E07A5F;
+    --sage: #81B29A;
+    --mustard: #F2CC8F;
+    --cream: #F4F1DE;
+    --charcoal: #3D405B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--cream);
+    color: var(--charcoal);
+    overflow-x: hidden;
+}
+
+/* Modern Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    background: rgba(244, 241, 222, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+}
