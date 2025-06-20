@@ -27,10 +27,10 @@ A visually tasty and responsive pizza ordering website built with pure HTML, CSS
 Clone the repository :
 
 ```sh
-git clone https://github.com/DarkFeed2005/KDriveX-HTML-CSS-JS.git
+git clone https://github.com/DarkFeed2005/Pizza-Website-HTML-CSS-Javascript.git
 ```
 ```bash
-cd rent a car -website
+cd Pizza-Website-HTML-CSS-Javascript
 ```
 
 
